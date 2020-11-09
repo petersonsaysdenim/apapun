@@ -1,0 +1,52 @@
+{
+  "name": "Test",
+  "version": "1.0.0",
+  "description": "Test",
+  "author": "Dery Aprianto",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "staging": "nuxt --port 3001",
+    "prod": "nuxt start --port 3001",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.7.0",
+    "@nuxtjs/axios": "^5.5.4",
+    "@nuxtjs/pwa": "^2.6.0",
+    "ant-design-vue": "^1.3.15",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.24",
+    "chart.js": "^2.8.0",
+    "cross-env": "^5.2.0",
+    "d3": "^5.9.7",
+    "jquery": "^3.4.1",
+    "moment": "^2.24.0",
+    "nuxt": "^2.8.1",
+    "nuxt-validate": "^0.1.3",
+    "popper.js": "^1.15.0",
+    "sweetalert2": "^8.12.1",
+    "swiper": "^5.4.5",
+    "vue-ads-table-tree": "^2.3.7",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-axios": "^2.1.4",
+    "vue-chartjs": "^3.4.2",
+    "vue-moment": "^4.0.0",
+    "vue-panzoom": "^0.1.1",
+    "vue-scrollto": "^2.15.0",
+    "vue-svg-pan-zoom": "^1.0.1",
+    "vue-sweetalert2": "^2.0.5",
+    "vue2-datepicker": "^2.12.0",
+    "vue2-flip-countdown": "^0.7.1",
+    "vuejs-datepicker": "^1.6.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "nodemon": "^1.19.1",
+    "sass-loader": "^8.0.2",
+    "vue-masonry-css": "^1.0.3"
+  }
+}
