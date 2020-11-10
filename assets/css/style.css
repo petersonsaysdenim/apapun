@@ -1,5 +1,8 @@
+:root {
+  --Roboto:'Roboto',sans-serif;
+}
 .bgyellow{background:#ffd600 !important;}
-.wordingImport{font-size: 31px;letter-spacing: 2px;font-weight: normal;}
+.wordingImport p{font-family:'Roboto',sans-serif;font-size: 1.9em;letter-spacing: 1px;font-weight: 500;line-height: normal;}
 .wordingImport img{width: 150px;height: auto;}
 .pembatas{width: 100%;margin:20px 0;}
-.pembatas .batas{width: 15%;height: 1%;padding: 0px;background: #0000;}
+.pembatas .batas{width: 15%;height: 1%;padding: 1px;background: #000;}
