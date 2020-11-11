@@ -1,8 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
 :root {
   --Roboto:'Roboto',sans-serif;
+  --Passion:'Passion One',cursive;
+  --Monserat:Montserrat;
+--secondary: #188bf6;
+--white: #ffffff;
+--gray: #cbd5e0;
+--black: #000000;
+--red: #e93d3d;
+--orange: #f6ad55;
+--yellow: #faf089;
+--green: #9ae6b4;
+--teal: #63b3ed;
+--indigo: #757BBD;
+--purple: #d6bcfa;
+--pink: #fbb6ce;
+--transparent: transparent;
+--overlay: rgba(0, 0, 0, 0.5);
+--color-17: rgb(8, 8, 8);
 }
+
+.row.row-center{display: flex;justify-content:center;}	
+.align-center{text-align: center;}
 .bgyellow{background:#ffd600 !important;}
-.wordingImport p{font-family:'Roboto',sans-serif;font-size: 1.9em;letter-spacing: 1px;font-weight: 500;line-height: normal;}
+.wordingImport h1{margin-bottom: 1rem;}
+.wordingImport p{font-family:var(--Passion);font-size: 31px;letter-spacing: 2px;font-weight: normal;line-height: normal;margin-bottom: 0;}
 .wordingImport img{width: 150px;height: auto;}
-.pembatas{width: 100%;margin:20px 0;}
-.pembatas .batas{width: 15%;height: 1%;padding: 1px;background: #000;}
+.pembatas{width: 100%;margin:28px 0;}
+.pembatas .batas{width: 10%;margin:0 auto;padding: 1.5px 0 0 0;background: #000;}
+
+/*video*/
+#ytvideo{max-width: 560px;margin: 0 auto;}
+#ytvideo .embed-video{display: block;width: 100%;}
+/*end video*/
+/*footer*/
+ footer.bgblack{background-color:var(--color-17);padding:0;color:var(--white);font-size: 10px;}
+ footer .footerWrapper{padding:2rem 0 1rem 0;}
+ .footerWrapper p{font-family: var(--Monserat);}
+/*end footer*/
+/*flag country*/
+.flagCountry h2,.flagCountry h4{font-family: var(--Passion);}
+#country h4{font-size:20px;margin-bottom: 0px;}
+.imageWrapper img{width: 100%;}
+/*end flag country*/
